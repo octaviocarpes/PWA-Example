@@ -1,0 +1,21 @@
+{
+  "name": "pwa-example",
+  "version": "1.0.0",
+  "description": "pwa example",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server",
+    "start-dev":"live-server --port=3000"
+  },
+  "keywords": [
+    "pwa"
+  ],
+  "author": "octavio carpes",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "live-server": "^1.2.0",
+    "workbox-sw": "^2.1.2"
+  }
+}
